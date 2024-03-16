@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+
+.add-appointment-container {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.appointment-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+  order: 1;
+}
+
+.appointment-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-img {
+    display: inline;
+    order: 2;
+    width: 49%;
+  }
+}
+
+.line {
+  width: 90%;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
